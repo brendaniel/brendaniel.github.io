@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+h1{
+	font-family: 'Chewy', cursive;
+	font-size: 90px;
+	font-weight: 100;
+	text-decoration: none;
+	color: #011137;
+	position: absolute;
+	top: 150px;
+	left: 500px;	
+}
+
+p{
+	font-size: 30px;
+	font-weight: 70;
+	text-decoration: none;
+	position: absolute;
+	top: 280px;
+	left: 770px;	
+}
+.container{
+    font-family: 'Courier Prime', Courier, monospace;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 25px;
+    background: #8723F8;
+    position: absolute;
+	top: 380px;
+	left: 770px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.container:hover{
+    border-radius: 100px;
+    background: #122d70;
+    transition: 0.8s;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+}
